@@ -1,4 +1,12 @@
+# Ignoriranje konfiguracijskih datotek z gesli
+config
+*.env
+secret_keys.json
+
+# Binarni fajli in object files
 *.exe
 *.o
 *.obj
+
+# Log fajli
 *.log
